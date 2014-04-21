@@ -1,0 +1,68 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.yamac.android.tutorial.adapterview"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="net.yamac.android.tutorial.adapterview.RootActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="net.yamac.android.tutorial.adapterview.LoopListView_Step1_TestActivity"
+            android:label="Step 1 - Display Views" >
+            <intent-filter>
+                <action android:name="net.yamac.android.tutorial.adapterview.intent.action.APP" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="net.yamac.android.tutorial.adapterview.LoopListView_Step2_TestActivity"
+            android:label="Step 2 - Recycle Views" >
+            <intent-filter>
+                <action android:name="net.yamac.android.tutorial.adapterview.intent.action.APP" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="net.yamac.android.tutorial.adapterview.LoopListView_Step3_TestActivity"
+            android:label="Step 3 - Scroll" >
+            <intent-filter>
+                <action android:name="net.yamac.android.tutorial.adapterview.intent.action.APP" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="net.yamac.android.tutorial.adapterview.LoopListView_Step4_TestActivity"
+            android:label="Step 4 - Fling" >
+            <intent-filter>
+                <action android:name="net.yamac.android.tutorial.adapterview.intent.action.APP" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="net.yamac.android.tutorial.adapterview.LoopListView_Step5_TestActivity"
+            android:label="Step 5 - Smooth Adjust Center" >
+            <intent-filter>
+                <action android:name="net.yamac.android.tutorial.adapterview.intent.action.APP" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="net.yamac.android.tutorial.adapterview.LoopListView_Step6_TestActivity"
+            android:label="Step 6 - Touch" >
+            <intent-filter>
+                <action android:name="net.yamac.android.tutorial.adapterview.intent.action.APP" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
